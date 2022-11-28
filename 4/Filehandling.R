@@ -1,0 +1,6 @@
+dataset_iris<- read.csv("C:/Users/mariumyounus/Desktop/iris.csv")
+print(dataset_iris)
+print(is.data.frame(dataset_iris))
+print(ncol(dataset_iris))
+print(nrow(dataset_iris))
+write.csv(dataset_iris,"C:/Users/mariumyounus/Desktop/2002C2Iris.csv")
